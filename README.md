@@ -26,7 +26,7 @@
 4. 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
 
 ### 选择排序
-！[SelectionSort](animation/Selection_sort_animation.gif)
+![SelectionSort](animation/Selection_sort_animation.gif)
 
 选择排序(Selection sort)是一种简单直观的排序算法。它的工作原理如下。首先在未排序序列中找到最小元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小元素，然后放到排序序列末尾。以此类推，直到所有元素均排序完毕。
 算法描述如下：
@@ -35,7 +35,7 @@
 3. 此时第一个元素为最小的元素，再从第二个元素开始，重复执行1、2
 
 ### 归并排序
-![MergeSort](animation/Merge_sort_animation2.jif)
+![MergeSort](animation/Merge_sort_animation2.gif)
 
 归并排序(Merge Sort),是创建在归并操作上的一种有效的排序算法，效率为O(n log n)。1945年由约翰·冯·诺伊曼首次提出。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用，且各层分治递归可以同时进行。
 算法描述如下：
