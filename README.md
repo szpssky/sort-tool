@@ -2,20 +2,21 @@
 -------------
 | 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|
 |:------:|:-----:|:------:|:---:|
-|冒泡排序|O(n) &nbsp; &nbsp; &nbsp; O($n^2$) &nbsp; &nbsp; &nbsp; O($n^2$)|O(1)|是|
-|选择排序|O($n^2$)&nbsp; &nbsp; &nbsp; O($n^2$) &nbsp; &nbsp; &nbsp; O($n^2$)|O(1)|否|
-|归并排序|O($n\log_2n)$ O($n\log_2n)$ O($n\log_2n)$|O(n)|是|
-|快速排序|O($n\log_2n)$ O($n\log_2n$) O($n^2$)|O($log_2n$)|否|
-|插入排序|O(n) &nbsp; &nbsp; &nbsp; O($n^2$) &nbsp; &nbsp; &nbsp; O($n^2$)|O(1)|是|
+|冒泡排序|O(n) &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
+|选择排序| <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">&nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|
+|归并排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)">|O(n)|是|
+|快速排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|<img src="http://www.forkosh.com/mathtex.cgi?O($log_2n)$)">|否|
+|插入排序|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
 |希尔排序||O(1)|否|
-|堆排序|O($n\log_2n$) O($n\log_2n$) O($n\log_2n$)|O(1)|否|
+|堆排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)">|O(1)|否|
 |基数排序|O(d(n+r)) O(d(n+r)) O(d(n+r))|O(r)|是|
-|鸡尾酒排序 |O(n) &nbsp; &nbsp; &nbsp; O($n^2$) &nbsp; &nbsp; &nbsp; O($n^2$)|O(1)|是|
-|地精排序|O(n) &nbsp; &nbsp; &nbsp; O($n^2$) &nbsp; &nbsp; &nbsp; O($n^2$)|O(1)|是|
-|梳排序|O($n\log_2n$) O($n^2/2^p)$ O($n^2$)|O(1)|否|
+|鸡尾酒排序 |O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
+|地精排序|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
+|梳排序|O($n\log_2n$) O($n^2/2^p)$  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|
 
 ### 冒泡排序
 ![BubbleSort](animation/Bubble_sort_animation.gif)
+
  冒泡排序（Bubble Sort)是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
 算法描述如下：
 1. 比较相邻的元素。如果第一个比第二个大，就交换他们两个。
@@ -25,6 +26,7 @@
 
 ### 选择排序
 ！[SelectionSort](animation/Selection_sort_animation.gif)
+
 选择排序(Selection sort)是一种简单直观的排序算法。它的工作原理如下。首先在未排序序列中找到最小元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小元素，然后放到排序序列末尾。以此类推，直到所有元素均排序完毕。
 算法描述如下：
 1. 从第一个元素开始，向后依次比较
@@ -33,6 +35,7 @@
 
 ### 归并排序
 ![MergeSort](animation/Merge_sort_animation2.jif)
+
 归并排序(Merge Sort),是创建在归并操作上的一种有效的排序算法，效率为O(n log n)。1945年由约翰·冯·诺伊曼首次提出。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用，且各层分治递归可以同时进行。
 算法描述如下：
 1. 采用递归的方法将序列每次进行划分，2路归并则每次划分左右2部分，直到不能再划分为止。
@@ -42,6 +45,7 @@
 
 ### 快速排序
 快速排序（Quicksort)，又称划分交换排序（partition-exchange sort），一种排序算法，最早由东尼·霍尔提出。在平均状况下，排序n个项目要Ο(n log n)次比较。在最坏状况下则需要Ο(n2)次比较，但这种状况并不常见。
+
 ![QuickSort](animation/Sorting_quicksort_anim.gif)
 算法描述如下：
 1. 从数列中挑出一个元素，称为"基准"（pivot），
@@ -52,6 +56,7 @@
 
 ### 插入排序
 ![InsertSort](animation/Insertion_sort_animation.gif)
+
 插入排序(Insertion Sort)一种简单直观的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。插入排序在实现上，通常采用in-place排序（即只需用到O(1)的额外空间的排序），因而在从后向前扫描过程中，需要反复把已排序元素逐步向后挪位，为最新元素提供插入空间。
 算法描述如下：
 1. 从第一个元素开始，该元素可以认为已经被排序
