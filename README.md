@@ -4,11 +4,11 @@
 |:------:|:-----:|:------:|:---:|
 |冒泡排序|O(n) &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
 |选择排序| <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">&nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|
-|归并排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)">|O(n)|是|
-|快速排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|<img src="http://www.forkosh.com/mathtex.cgi?O($log_2n)$)">|否|
+|归并排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(n)|是|
+|快速排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|<img src="http://www.forkosh.com/mathtex.cgi?O($log_2n)$">|否|
 |插入排序|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
 |希尔排序||O(1)|否|
-|堆排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$)">|O(1)|否|
+|堆排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(1)|否|
 |基数排序|O(d(n+r)) O(d(n+r)) O(d(n+r))|O(r)|是|
 |鸡尾酒排序 |O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
 |地精排序|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
