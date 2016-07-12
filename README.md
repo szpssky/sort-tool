@@ -1,13 +1,13 @@
 排序算法(Java 实现)
 =====================
-[![CircleCI](https://circleci.com/gh/szpssky/sort-algorithm/tree/master.svg?style=svg)](https://circleci.com/gh/szpssky/sort-algorithm/tree/master)
+[![Build Status](https://travis-ci.org/szpssky/sort-algorithm.svg?branch=master)](https://travis-ci.org/szpssky/sort-algorithm)
 
 | 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|
 |:------:|:-----:|:------:|:---:|
 |[冒泡排序](#冒泡排序)|O(n) &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
 |[选择排序](#选择排序)| <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">&nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|
 |[归并排序](#归并排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(n)|是|
-|[快速排序](快速排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|<img src="http://www.forkosh.com/mathtex.cgi?O($log_2n)$">|否|
+|[快速排序](#快速排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|<img src="http://www.forkosh.com/mathtex.cgi?O($log_2n)$">|否|
 |[插入排序](#插入排序)|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
 |希尔排序||O(1)|否|
 |堆排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(1)|否|
