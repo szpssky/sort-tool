@@ -3,7 +3,6 @@ package szp;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -13,10 +12,10 @@ import static org.junit.Assert.assertArrayEquals;
  * Created by szp on 16/7/10.
  */
 public class TestSort {
-    private  Integer array[] = new Integer[20];
+    private  Integer array[] = new Integer[100];
     public  void CreateArray(){
-        for(int i=0;i<20;i++){
-            array[i] = new Random().nextInt(100);
+        for(int i=0;i<array.length;i++){
+            array[i] = new Random().nextInt(200);
         }
 
     }
@@ -64,6 +63,38 @@ public class TestSort {
         Integer[] tmp = array.clone();
         InsertionSort<Integer> insertionSort = new InsertionSort<Integer>(array);
         insertionSort.sort();
+        Arrays.sort(tmp);
+        assertArrayEquals(array,tmp);
+    }
+    @Test
+    public void testShellSort(){
+        Integer[] tmp = array.clone();
+        ShellSort<Integer> shellSort = new ShellSort<Integer>(array);
+        shellSort.sort();
+        Arrays.sort(tmp);
+        assertArrayEquals(array,tmp);
+    }
+    @Test
+    public void testHeapSort(){
+        Integer[] tmp = array.clone();
+        HeapSort<Integer> heapSort = new HeapSort<Integer>(array);
+        heapSort.sort();
+        Arrays.sort(tmp);
+        assertArrayEquals(array,tmp);
+    }
+    @Test
+    public void testCocktailSort(){
+        Integer[] tmp = array.clone();
+        CocktailSort<Integer> cocktailSort = new CocktailSort<Integer>(array);
+        cocktailSort.sort();
+        Arrays.sort(tmp);
+        assertArrayEquals(array,tmp);
+    }
+    @Test
+    public void testGnomeSort(){
+        Integer[] tmp = array.clone();
+        GnomeSort<Integer> gnomeSort = new GnomeSort<Integer>(array);
+        gnomeSort.sort();
         Arrays.sort(tmp);
         assertArrayEquals(array,tmp);
     }

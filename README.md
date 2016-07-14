@@ -2,19 +2,19 @@
 =====================
 [![Build Status](https://travis-ci.org/szpssky/sort-algorithm.svg?branch=master)](https://travis-ci.org/szpssky/sort-algorithm)
 
-| 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|
+| 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|示例|
 |:------:|:-----:|:------:|:---:|
-|[冒泡排序](#冒泡排序)|O(n) &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
-|[选择排序](#选择排序)| <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">&nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|
-|[归并排序](#归并排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(n)|是|
-|[快速排序](#快速排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|<img src="http://www.forkosh.com/mathtex.cgi?O($log_2n)$">|否|
-|[插入排序](#插入排序)|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
-|希尔排序||O(1)|否|
-|堆排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(1)|否|
-|基数排序|O(d(n+r)) O(d(n+r)) O(d(n+r))|O(r)|是|
-|鸡尾酒排序 |O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
-|地精排序|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|
-|梳排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n^2/2^p)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|
+|[冒泡排序](#冒泡排序)|O(n) &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|是|
+|[选择排序](#选择排序)| <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">&nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|是|
+|[归并排序](#归并排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(n)|是|是|
+|[快速排序](#快速排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|<img src="http://www.forkosh.com/mathtex.cgi?O($log_2n)$">|否|是|
+|[插入排序](#插入排序)|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|是|
+|[希尔排序](#希尔排序)||O(1)|否|是|
+|[堆排序](#堆排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(1)|否|是|
+|基数排序|O(d(n+r)) O(d(n+r)) O(d(n+r))|O(r)|是|否|
+|[鸡尾酒排序](#鸡尾酒排序) |O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|否|
+|[地精排序](#地精排序)|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|是|
+|梳排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n^2/2^p)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|否|
 
 ## 冒泡排序
 ![BubbleSort](animation/Bubble_sort_animation.gif)
@@ -81,14 +81,79 @@
 
 算法描述如下：
 
-1. 从第一个元素开始，该元素可以认为已经被排序
+1. 从第一个元素开始，该元素可以认为已经被排序。
 
-2. 取出下一个元素，在已经排序的元素序列中从后向前扫描
+2. 取出下一个元素，在已经排序的元素序列中从后向前扫描。
 
-3. 如果该元素（已排序）大于新元素，将该元素移到下一位置
+3. 如果该元素（已排序）大于新元素，将该元素移到下一位置。
 
-4. 重复步骤3，直到找到已排序的元素小于或者等于新元素的位置
+4. 重复步骤3，直到找到已排序的元素小于或者等于新元素的位置。
 
-5. 将新元素插入到该位置后
+5. 将新元素插入到该位置后。
 
-6. 重复步骤2~5
+6. 重复步骤2~5。
+
+## 希尔排序
+![ShellSort](animation/Sorting_shellsort_anim.gif)
+
+希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。希尔排序是非稳定排序算法。
+
+希尔排序是基于插入排序的以下两点性质而提出改进方法的：
+
+- 插入排序在对几乎已经排好序的数据操作时，效率高，即可以达到线性排序的效率
+- 但插入排序一般来说是低效的，因为插入排序每次只能将数据移动一位
+
+算法描述如下：
+
+1. 设定初始步长GAP。
+
+2. 按步长进行。
+
+3. 对每个分组使用插入排序。
+
+4. 减小步长。
+
+5. 重复步骤2~4,直到步长为1,即整个数列只有1个分组,对最后这个分组执行1次插入排序。
+
+## 堆排序
+![HeapSort](animation/Sorting_heapsort_anim.gif)
+
+堆排序(Heapsort)是指利用堆积树（堆）这种数据结构所设计的一种排序算法。可以利用数组的特点快速定位指定索引的元素,堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。
+
+算法描述如下：
+
+1. 将序列创建为最大堆(最小堆)。
+
+2. 取出堆中的第一个节点，即为序列的最大值(最小值)。
+
+3. 重新调整堆使之重新满足最大堆(最小堆)的特性。
+
+4. 重复步骤2~3，直到所有序列处理完毕。
+
+## 鸡尾酒排序
+![CocktailSort](animation/Sorting_shaker_sort_anim.gif)
+
+鸡尾酒排序(CocktailSort)，也就是定向冒泡排序，鸡尾酒搅拌排序，搅拌排序（也可以视作选择排序的一种变形），涟漪排序，来回排序or 快乐小时排序，是冒泡排序的一种变形。此算法与冒泡排序的不同处在于排序时是以双向在序列中进行排序。当进行一次冒泡后立即进行反向冒泡。
+
+算法描述如下：
+1. 对序列进行一次冒泡排序，此时整个序列的最大数(最小数)将会上浮。
+
+2. 对该序列进行一次反向冒泡排序，即最小数(最大数)下沉。
+
+3. 重复1~2步直到整个序列有序。
+
+## 地精排序
+![GnomeSort](animation/Gnome_Sort.gif)
+
+地精排序（GnomeSorting，大部分地方翻成“侏儒排序”）最初由哈米德在2000年的时候提出，当时称为傻瓜排序，之后被迪克说明并且命名为“地精排序”。
+一个地精在排列一排花盘。他从前至后的排列，如果相邻的两个花盘顺序正确，他向前一步；如果花盘顺序错误，他后退一步，直到所有的花盘的顺序都排列好。
+
+算法描述如下：
+1. 对序列进行冒泡，如果相邻两个数顺序不正确，则交换他们。
+
+2. 相互后立即反向冒泡，若相邻两个数顺序不正确，则交换他们,再进行反向。
+
+3. 重复步骤1~2，直到所有序列有序。
+
+
+

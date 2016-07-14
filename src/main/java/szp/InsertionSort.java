@@ -19,7 +19,7 @@ public class InsertionSort<T extends Comparable<T>> {
         }
     }
 
-    public void swap(T[] a, int i, int j) {
+    private void swap(T[] a, int i, int j) {
         T tmp = a[i];
         a[i] = a[j];
         a[j] = tmp;
