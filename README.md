@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/szpssky/sort-algorithm.svg?branch=master)](https://travis-ci.org/szpssky/sort-algorithm)
 
 | 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|示例|
-|:------:|:-----:|:------:|:---:|
+|:------:|:-----:|:------:|:---:|:---:|
 |[冒泡排序](#冒泡排序)|O(n) &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|是|
 |[选择排序](#选择排序)| <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">&nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|是|
 |[归并排序](#归并排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$"> <img src="http://www.forkosh.com/mathtex.cgi?O($n\log_2n)$">|O(n)|是|是|
@@ -20,7 +20,7 @@
 ![BubbleSort](animation/Bubble_sort_animation.gif)
 
 
- 冒泡排序（Bubble Sort)是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
+ 冒泡排序(Bubble Sort)是一种简单的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。
 
 算法描述如下：
 
@@ -60,7 +60,7 @@
 4. 重复步骤2，直到所有元素排序完毕。
 
 ## 快速排序
-快速排序（Quicksort)，又称划分交换排序（partition-exchange sort），一种排序算法，最早由东尼·霍尔提出。在平均状况下，排序n个项目要Ο(n log n)次比较。在最坏状况下则需要Ο(n2)次比较，但这种状况并不常见。
+快速排序(Quicksort)，又称划分交换排序（partition-exchange sort），一种排序算法，最早由东尼·霍尔提出。在平均状况下，排序n个项目要Ο(n log n)次比较。在最坏状况下则需要Ο(n2)次比较，但这种状况并不常见。
 
 ![QuickSort](animation/Sorting_quicksort_anim.gif)
 
@@ -96,7 +96,7 @@
 ## 希尔排序
 ![ShellSort](animation/Sorting_shellsort_anim.gif)
 
-希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。希尔排序是非稳定排序算法。
+希尔排序(ShellSort)，也称递减增量排序算法，是插入排序的一种更高效的改进版本。希尔排序是非稳定排序算法。
 
 希尔排序是基于插入排序的以下两点性质而提出改进方法的：
 
