@@ -98,4 +98,12 @@ public class TestSort {
         Arrays.sort(tmp);
         assertArrayEquals(array,tmp);
     }
+    @Test
+    public void testCombSort(){
+        Integer[] tmp = array.clone();
+        CombSort<Integer> combSort = new CombSort<Integer>(array);
+        combSort.sort();
+        Arrays.sort(tmp);
+        assertArrayEquals(array,tmp);
+    }
 }

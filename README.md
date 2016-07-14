@@ -14,7 +14,7 @@
 |基数排序|O(d(n+r)) O(d(n+r)) O(d(n+r))|O(r)|是|否|
 |[鸡尾酒排序](#鸡尾酒排序) |O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|否|
 |[地精排序](#地精排序)|O(n) &nbsp; &nbsp; &nbsp;  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> &nbsp; &nbsp; &nbsp; <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|是|是|
-|梳排序|<img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n^2/2^p)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|否|
+|[梳排序](#梳排序)|<img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)"> <img src="http://www.forkosh.com/mathtex.cgi?O($n^2/2^p)$">  <img src="http://www.forkosh.com/mathtex.cgi?O($n^2$)">|O(1)|否|是|
 
 ## 冒泡排序
 ![BubbleSort](animation/Bubble_sort_animation.gif)
@@ -158,5 +158,9 @@
 
 3. 重复步骤1~2，直到所有序列有序。
 
+## 梳排序
+![Comb_sort](animation/Comb_sort.gif)
+
+梳排序(Comb sort)是一种由Wlodzimierz Dobosiewicz于1980年所发明的不稳定排序算法，并由Stephen Lacey和Richard Box于1991年四月号的Byte杂志中推广。梳排序是改良自冒泡排序和快速排序。在冒泡排序中，只比较阵列中相邻的二项，即比较的二项的间距（Gap）是1，梳排序提出此间距其实可大于1，改自插入排序的希尔排序同样提出相同观点。梳排序中，开始时的间距设定为阵列长度，并在循环中以固定比率递减，通常递减率设定为1.3。在一次循环中，梳排序如同泡沫排序一样把阵列从首到尾扫描一次，比较及交换两项，不同的是两项的间距不固定于1。如果间距递减至1，梳排序假定输入阵列大致排序好，并以冒泡排序作最后检查及修正。 
 
 
