@@ -1,6 +1,7 @@
 排序算法(Java 实现)
 =====================
 [![Build Status](https://travis-ci.org/szpssky/sort-algorithm.svg?branch=master)](https://travis-ci.org/szpssky/sort-algorithm)
+[![Coverage Status](https://coveralls.io/repos/github/szpssky/sort-algorithm/badge.svg?branch=master)](https://coveralls.io/github/szpssky/sort-algorithm?branch=master)
 
 | 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|示例|
 |:------:|:-----:|:------:|:---:|:---:|
