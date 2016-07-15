@@ -13,7 +13,7 @@ import static org.junit.Assert.assertArrayEquals;
  */
 public class TestSort {
     private  Integer array[] = new Integer[100];
-    public  void CreateArray(){
+    public  void createArray(){
         for(int i=0;i<array.length;i++){
             array[i] = new Random().nextInt(200);
         }
@@ -21,7 +21,7 @@ public class TestSort {
     }
     @Before
     public  void init(){
-        CreateArray();
+        createArray();
     }
 
     @Test

@@ -2,6 +2,7 @@
 =====================
 [![Build Status](https://travis-ci.org/szpssky/sort-algorithm.svg?branch=master)](https://travis-ci.org/szpssky/sort-algorithm)
 [![Coverage Status](https://coveralls.io/repos/github/szpssky/sort-algorithm/badge.svg?branch=master)](https://coveralls.io/github/szpssky/sort-algorithm?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e2eef66ae8674f6cac4259a07b9339e3)](https://www.codacy.com/app/szplss31012/sort-algorithm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=szpssky/sort-algorithm&amp;utm_campaign=Badge_Grade)
 
 | 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|示例|
 |:------:|:-----:|:------:|:---:|:---:|

@@ -1,8 +1,5 @@
 package szp;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 /**
  * Created by szp on 16/7/11.
  */
