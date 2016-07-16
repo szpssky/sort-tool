@@ -6,6 +6,10 @@ package com.tifosi.tool.sort;
 public class MergeSort<T extends Comparable<T>> implements Sort{
     private T[] items;
 
+    /**
+     *
+     * @param items The set of items to be sorted
+     */
     public MergeSort(T[] items) {
         this.items = items;
     }
@@ -13,6 +17,13 @@ public class MergeSort<T extends Comparable<T>> implements Sort{
     public void sort() {
         mergeSort(items, 0, items.length - 1);
     }
+
+    /**
+     *
+     * @param items The set of items to be sorted
+     * @param lo    Index of first item
+     * @param hi    Index of last item
+     */
 
     private void mergeSort(T[] items, int lo, int hi) {
         if (lo >= hi)

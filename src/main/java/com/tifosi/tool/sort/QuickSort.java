@@ -1,13 +1,5 @@
 package com.tifosi.tool.sort;
 
-import java.util.Random;
-
-/**
- * An Implementation of QuickSort
- *
- * @author Joshua Kissoon
- * @param <T> The type of item to be sorted
- */
 public class QuickSort<T extends Comparable<T>> implements Sort
 {
 
@@ -20,8 +12,6 @@ public class QuickSort<T extends Comparable<T>> implements Sort
     {
         this.items = items;
 
-        /* Shuffle the array */
-        this.shuffleArray(items);
     }
 
     public void sort()
@@ -102,15 +92,4 @@ public class QuickSort<T extends Comparable<T>> implements Sort
         this.items[j] = temp;
     }
 
-    private void shuffleArray(T[] a)
-    {
-        int N = a.length;
-        for (int i = 0; i < N; i++)
-        {
-            int r = i + new Random().nextInt(N - i);     // between i and N-1
-            T temp = a[i];
-            a[i] = a[r];
-            a[r] = temp;
-        }
-    }
 }

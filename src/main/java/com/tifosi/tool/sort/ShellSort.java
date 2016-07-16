@@ -6,6 +6,10 @@ package com.tifosi.tool.sort;
 public class ShellSort<T extends Comparable<T>> implements Sort{
     private T[] items;
 
+    /**
+     *
+     * @param items The set of items to be sorted
+     */
     public ShellSort(T[] items) {
         this.items = items;
     }
