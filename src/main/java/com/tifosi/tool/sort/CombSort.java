@@ -1,9 +1,9 @@
-package szp;
+package com.tifosi.tool.sort;
 
 /**
  * Created by szp on 16/7/14.
  */
-public class CombSort<T extends Comparable<T>> {
+public class CombSort<T extends Comparable<T>> implements Sort{
     private T[] items;
     public CombSort(T[] items){
         this.items = items;

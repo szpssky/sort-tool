@@ -1,9 +1,9 @@
-package szp;
+package com.tifosi.tool.sort;
 
 /**
  * Created by szp on 16/7/13.
  */
-public class HeapSort<T extends Comparable<T>> {
+public class HeapSort<T extends Comparable<T>> implements Sort{
     private T[] items;
     public HeapSort(T[] items){
         this.items = items;

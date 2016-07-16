@@ -1,9 +1,9 @@
-package szp;
+package com.tifosi.tool.sort;
 
 /**
  * Created by szp on 16/7/13.
  */
-public class ShellSort<T extends Comparable<T>> {
+public class ShellSort<T extends Comparable<T>> implements Sort{
     private T[] items;
 
     public ShellSort(T[] items) {

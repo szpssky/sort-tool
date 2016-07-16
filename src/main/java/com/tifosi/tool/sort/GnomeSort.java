@@ -1,9 +1,9 @@
-package szp;
+package com.tifosi.tool.sort;
 
 /**
  * Created by szp on 16/7/14.
  */
-public class GnomeSort<T extends Comparable<T>> {
+public class GnomeSort<T extends Comparable<T>> implements Sort{
     private T[] items;
     public GnomeSort(T[] items){
         this.items = items;

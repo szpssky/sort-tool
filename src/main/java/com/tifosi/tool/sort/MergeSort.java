@@ -1,9 +1,9 @@
-package szp;
+package com.tifosi.tool.sort;
 
 /**
  * Created by szp on 16/7/11.
  */
-public class MergeSort<T extends Comparable<T>> {
+public class MergeSort<T extends Comparable<T>> implements Sort{
     private T[] items;
 
     public MergeSort(T[] items) {

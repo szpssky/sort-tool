@@ -1,4 +1,4 @@
-package szp;
+package com.tifosi.tool.sort;
 
 import java.util.Random;
 
@@ -8,7 +8,7 @@ import java.util.Random;
  * @author Joshua Kissoon
  * @param <T> The type of item to be sorted
  */
-public class QuickSort<T extends Comparable<T>>
+public class QuickSort<T extends Comparable<T>> implements Sort
 {
 
     private  T[] items;

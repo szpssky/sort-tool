@@ -1,9 +1,9 @@
-package szp;
+package com.tifosi.tool.sort;
 
 /**
  * Created by szp on 16/7/13.
  */
-public class CocktailSort<T extends Comparable<T>> {
+public class CocktailSort<T extends Comparable<T>> implements Sort{
     private T[] items;
     public CocktailSort(T[] items){
         this.items = items;
