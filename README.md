@@ -16,7 +16,6 @@ About Sort Algorithm introduction see the [ALGORITHM_WIKI](ALGORITHM_WIKI.md).
 |Selection Sort|
 |Merge Sort|
 |Quick Sort|
-|Quick Sort|
 |Shell Sort|
 |Heap Sort|
 |Cocktail Sort|
