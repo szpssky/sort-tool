@@ -2,9 +2,7 @@ language: java
 sudo: false
 jdk:
 - oraclejdk8
-branches:
-  only:
-  - master
+
 env:
   global:
     secure: R2PGChtJiBa+gVVOk9097gTHGyBkgIHWyKcotd6yHHN14B01Bw+QxoG//z3DU1PhG2Sph1Z3iC9NxXFw9+B2+HbXc/egezZZWCQCyZXYqTRkS63bRwgjLYQg0khp3CKDeVTjQF3l0zqar8SdSyQBtrYR77yysAg7nC+VEu4YW2nE/XwVGDDIWKrmYq9683AQUwWOF77poXA/NfQW/tTgUmbwT+JjLa5jFv9v/2s3lBGv3f2gpmdq5cSSK5Q2y1tUHiFiQjHRxlOJcIkBDes9Z3503baWKACD7msYLyH49Crti47UAZb3LL9DSU9JFBgXNxqCXXUXTwYzB+MbT0ZIFdbvwvAKTROmz6PjzGQ9HLxGsgAbOS/mWx93NRyTwfU+DqRTdZc7jx7o+oss+DypGaut2jqXVxMRdA+b5lBa12eMjCxE6Xq0qBnmxNfuQl+uYQUPofnsGNxqxg5SA1duToNvk43Ejvv3PFPo/vojUFFKgNMs11Q9sH+fCmZaBU46a5g+7UOOK82ausm5h7y2tjnhwTMGXBKObEPaPVB63cbW1r6kJejD4hKbxHm1PC8q/VyptUJeTuQkDxL4u+EvDIpYu9KZ2ktHqrhzjNmdoF4dn/DCLXQPTIxZePa/6b61rckQOfSaoOh/1GV4nkxNEMphxHcKbYup+lQzj+EYvzk=
