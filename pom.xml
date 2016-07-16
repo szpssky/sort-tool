@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tifosi-m</groupId>
-    <artifactId>sort-algorithm</artifactId>
+    <artifactId>sort-tool</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
