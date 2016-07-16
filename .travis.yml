@@ -19,3 +19,4 @@ deploy:
   on:
     repo: szpssky/sort-tool
     tags: true
+    all_branches: true
