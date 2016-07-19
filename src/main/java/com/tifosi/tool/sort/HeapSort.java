@@ -29,11 +29,11 @@ public class HeapSort<T extends Comparable<T>> implements Sort {
     }
 
     /**
-     * 创建最大堆
+     * Create maxHeap
      *
      * @param data
-     * @param "一般在sort的时候用到,因为最多值放在末尾,末尾就不再归入最大堆了"
-     * @param "index当前需要创建最大堆的位置"
+     * @param heapSize the size of data
+     * @param index the current need to create the maximum heap location
      */
     private void maxHeapify(T[] data, int heapSize, int index) {
         // 当前点与左右子节点比较
@@ -57,9 +57,9 @@ public class HeapSort<T extends Comparable<T>> implements Sort {
     }
 
     /**
-     * 排序，最大值放在末尾，data虽然是最大堆，在排序后就成了递增的
      *
-     * @param data
+     *
+     * @param data The set of items to be sorted
      */
     private void heapSort(T[] data) {
         //末尾与头交换，交换后调整最大堆
@@ -72,10 +72,9 @@ public class HeapSort<T extends Comparable<T>> implements Sort {
     }
 
     /**
-     * 父节点位置
      *
-     * @param current
-     * @return
+     * @param current current node position
+     * @return Parent node position
      */
     private int getParentIndex(int current) {
         return (current - 1) >> 1;
@@ -84,8 +83,8 @@ public class HeapSort<T extends Comparable<T>> implements Sort {
     /**
      * 左子节点position注意括号，加法优先级更高
      *
-     * @param current
-     * @return
+     * @param current current node position
+     * @return leftChild node positon
      */
     private int getChildLeftIndex(int current) {
         return (current << 1) + 1;
@@ -94,8 +93,8 @@ public class HeapSort<T extends Comparable<T>> implements Sort {
     /**
      * 右子节点position
      *
-     * @param current
-     * @return
+     * @param current current node position
+     * @return rightChild node postion
      */
     private int getChildRightIndex(int current) {
         return (current << 1) + 2;
@@ -113,7 +112,7 @@ public class HeapSort<T extends Comparable<T>> implements Sort {
     }
 
     /**
-     * 以2为底的对数
+     * a base-2 logarithm
      *
      * @param param
      * @return

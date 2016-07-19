@@ -6,7 +6,7 @@ SortTool(Java)
 
 ## Overview
 
-This is SortAlgorithm tool,you can easy to use many sort algorithm.
+This is Sort Algorithm tool,you can easy to use many sort algorithm.
 
 About Sort Algorithm introduction see the [ALGORITHM_WIKI](ALGORITHM_WIKI.md). 
 
@@ -22,9 +22,19 @@ About Sort Algorithm introduction see the [ALGORITHM_WIKI](ALGORITHM_WIKI.md).
 |Gnome Sort|
 |Comb Sort|
 
-## How to use.
+## Quick Start
 
-Download [sort-algorithm.jar](https://github.com/szpssky/sort-algorithm/releases)
+Add maven dependency
+
+``` xml
+<dependency>
+  <groupId>com.tifosi-m</groupId>
+  <artifactId>sort-tool</artifactId>
+  <version>1.0</version>
+</dependency>
+```
+
+Or Download [sort-algorithm.jar](https://github.com/szpssky/sort-algorithm/releases)
 
 ``` java
 import com.tifosi.tool.sort.*;
