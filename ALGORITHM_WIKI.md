@@ -1,8 +1,11 @@
 排序算法(Java 实现)
 =====================
-[![Build Status](https://travis-ci.org/szpssky/sort-algorithm.svg?branch=master)](https://travis-ci.org/szpssky/sort-algorithm)
-[![Coverage Status](https://coveralls.io/repos/github/szpssky/sort-algorithm/badge.svg?branch=master)](https://coveralls.io/github/szpssky/sort-algorithm?branch=master)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e2eef66ae8674f6cac4259a07b9339e3)](https://www.codacy.com/app/szplss31012/sort-algorithm?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=szpssky/sort-algorithm&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/szpssky/sort-tool.svg?branch=master)](https://travis-ci.org/szpssky/sort-tool)
+[![Maven Central](https://img.shields.io/badge/maven--center-1.0-green.svg)](http://search.maven.org/#artifactdetails%7Ccom.tifosi-m%7Csort-tool%7C1.0%7Cjar)
+[![codecov](https://codecov.io/gh/szpssky/sort-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/szpssky/sort-tool)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/02a084c212894a3e913acb36046f0be5)](https://www.codacy.com/app/szplss31012/sort-tool?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=szpssky/sort-tool&amp;utm_campaign=Badge_Grade)
+[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
 
 | 算法种类|时间复杂度<br>最好情况 平均情况 最坏情况 |空间复杂度| 稳定性|示例|
 |:------:|:-----:|:------:|:---:|:---:|
