@@ -1,7 +1,7 @@
 SortTool(Java)
 =====================
 [![Build Status](https://travis-ci.org/szpssky/sort-tool.svg?branch=master)](https://travis-ci.org/szpssky/sort-tool)
-[![Coverage Status](https://coveralls.io/repos/github/szpssky/sort-tool/badge.svg?branch=master)](https://coveralls.io/github/szpssky/sort-tool?branch=master)
+[![codecov](https://codecov.io/gh/szpssky/sort-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/szpssky/sort-tool)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/02a084c212894a3e913acb36046f0be5)](https://www.codacy.com/app/szplss31012/sort-tool?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=szpssky/sort-tool&amp;utm_campaign=Badge_Grade)
 
 ## Overview
