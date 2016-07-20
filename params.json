@@ -1,0 +1,6 @@
+{
+  "name": "Sort-tool",
+  "tagline": "排序算法工具，包括:冒泡排序、选择排序、归并排序、快速排序、插入排序、希尔排序、堆排序等排序算法",
+  "body": "SortTool(Java)\r\n=====================\r\n## Overview\r\n\r\nThis is Sort Algorithm tool,you can easy to use many sort algorithm.\r\n\r\nAbout Sort Algorithm introduction see the [ALGORITHM_WIKI](ALGORITHM_WIKI.md). \r\n\r\n|Support|\r\n|:-----:|\r\n|Bubble Sort|\r\n|Selection Sort|\r\n|Merge Sort|\r\n|Quick Sort|\r\n|Shell Sort|\r\n|Heap Sort|\r\n|Cocktail Sort|\r\n|Gnome Sort|\r\n|Comb Sort|\r\n\r\n## Quick Start\r\n\r\nAdd maven dependency\r\n\r\n``` xml\r\n<dependency>\r\n  <groupId>com.tifosi-m</groupId>\r\n  <artifactId>sort-tool</artifactId>\r\n  <version>1.0</version>\r\n</dependency>\r\n```\r\n\r\nOr Download [sort-algorithm.jar](https://github.com/szpssky/sort-algorithm/releases)\r\n\r\n``` java\r\nimport com.tifosi.tool.sort.*;\r\n\r\n\r\nSort<Integer> quickSort = new QuickSort<Integer>(array);\r\nquick.sort();\r\n```\r\nEnjoy It!",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
